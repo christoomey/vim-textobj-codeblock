@@ -31,3 +31,21 @@ The plugin provides the following mappings by default:
 
 **Note** - The plugin requires the opening line of the codeblock to include a
 filetype declaration.
+
+Installation
+------------
+
+This plugin relies on the amazing [textobj-user][] plugin which provides nearly
+all the actual functionality, with this plugin specifying the pattern to target
+the codeblock.
+
+To install, you'll need both this plugin and textobj-user. If you don't have a
+preferred installation method, I recommend using [vim-plug][].
+
+```vim
+Plug 'kana/vim-textobj-user'
+Plug 'christoomey/vim-textobj-codeblock'
+```
+
+[textobj-user]: https://github.com/kana/vim-textobj-user
+[vim-plug]: https://github.com/junegunn/vim-plug
