@@ -4,7 +4,8 @@ textobj Codeblock
 This plugin provides a custom text object to target github-style fenced code
 blocks like the following:
 
-~~~markdown
+<pre>
+  <code>
 ``` ruby
 class MyClass
   def my_method
@@ -12,7 +13,8 @@ class MyClass
   end
 end
 ```
-~~~
+  </code>
+</pre>
 
 The plugin provides a text object to select the contents of the codeblock, as
 well as the entire codeblock (including the opening and closing backtick lines).
