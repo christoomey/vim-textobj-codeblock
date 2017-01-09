@@ -1,5 +1,5 @@
-textobj Codeblock
-=================
+vim-textobj-codeblock
+=====================
 
 This plugin provides a custom text object to target github-style fenced code
 blocks like the following:
